@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(240, 88, 0);
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    box-shadow: inset 1px 1px 9px rgba(0, 0, 0, 0.274)
+}
+
+nav{
+    background-color: rgb(245, 128, 73);
+    text-align: center;
+    padding: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.226);
+    
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+nav > a:hover{
+    text-decoration:underline;
+    color: white;
+}
+
+#assuntos{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+main{
+    background-color: rgb(253, 145, 83);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px 6px;
+}
+
+article{
+    background-color: #ffffff42;
+    padding: 5px;
+    margin: -10px;
+}
+
+aside > p{
+    text-align: center;
+}
+
+article > aside{
+    background-color:rgba(168, 76, 0, 0.26) ;
+    margin: 5px;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 10px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+div#bola{
+    background-color: rgb(255, 120, 9);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#bola > p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 0.7em;
+    padding-top: 40%;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo - Elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(226, 255, 226);
+        }
+        h1{
+            color: crimson;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+
+        }
+        /*Se for visitado*/
+        a:visited {
+            color: rgb(255, 81, 0);
+        }
+        /*Se passar o mous epor cima*/
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        /*Se pressionar o link*/
+        a:active {
+            color: blueviolet;
+
+        }
+        /*Pseudo-elemento*/
+        .especial::after{
+            content: '←';
+        }
+
+        .especial::before{
+            content: '→';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank">You Tube</a></li>
+        <li><a class="especial" href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a></li>
+        <li><a href="https://pt-br.facebook.com/" target="_blank">Linkedin</a></li>
+    </ul>
+    
+    
+    
+</body>
+</html>

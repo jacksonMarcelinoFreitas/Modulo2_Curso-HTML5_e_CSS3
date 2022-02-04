@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+main{
+    background-image:linear-gradient(to bottom, #95998A, #BDCC94);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.411);
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+}
+
+h1{
+    font-size: 40pt;
+    color: #44463f;
+    background-image: linear-gradient(to top, #95998A, #BDCC94);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.287);
+    text-shadow: 2px 2px wheat;
+    text-align: center;
+}
+h2{
+    font-size: 25pt;
+    color: #424852;
+    text-align: center;
+}
+p{
+    font-size: 20pt;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}

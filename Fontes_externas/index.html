@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        /*Cria-se regras
+        tipos de format:
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        -truetype-aat (Apple Advanced Typhography)
+        -svg
+        */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+        @font-face {
+            font-family: 'Samantha';
+            src: url(Font/samantha.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Solthin';
+            src: url(Font/SolThin.otf) format('opentype');
+        }
+        @font-face {
+            font-family: 'Ubuntu';
+            src: url(Font/Ubuntu-Title.ttf) format('truetype');
+        }
+
+        body{
+            font-family: 'Samantha', sans-serif;
+        }
+        h1{
+            font-family: 'Samantha', cursive;
+            font-size: 3em;
+            font-style: normal;
+            font-weight: bolder;
+            color: lightcoral;
+        }
+        h2{
+            font-family: 'Solthin', sans-serif;
+            text-decoration: underline;
+            color: lightseagreen;
+        }
+        p{
+            font-family: 'Ubuntu', sans-serif;
+
+        }
+
+    </style>
+    
+</head>
+
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eveniet et fugit deserunt sunt necessitatibus sapiente labore dolor dignissimos, non dolorum nisi quibusdam repudiandae recusandae, error similique culpa quod architecto.</p>
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid fugit earum, tempora mollitia ipsum sed magni commodi molestiae delectus, dolore magnam ab pariatur debitis voluptatibus officiis eaque odio et! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio incidunt animi, magnam eius voluptates reprehenderit quas, expedita eum fugit placeat, quia repellat. In quisquam cumque minus mollitia corporis ratione at.</p>
+    
+</body>
+</html>

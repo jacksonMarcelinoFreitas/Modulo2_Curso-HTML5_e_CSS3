@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #e8e4ff;
+}
+
+/*A class destaque presente em h1 mão sobrepõe a configuração do idS*/
+h1#principal{
+    background-color: #2D207A;
+    color: cornsilk;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/*Configuração genéria para h1 é sobreposta pela classe*/
+h1{
+    color: #2107b9;
+}
+
+/*h1 utizando duas classes diferentes*/
+.subtitulo{
+    color: #5D42FA;
+}
+.destaque{
+    background-color: #5e42fa2f;
+}
+
+/*h2 com classe difrentes*/
+.basico{
+    color: #457a4e;
+}
+
+.intermediario{
+    color: #7a7945;
+}
+
+.avancado{
+    color: #7a4545;
+}
+
+
+p{
+    color: #000000;
+    text-align: justify;
+}
