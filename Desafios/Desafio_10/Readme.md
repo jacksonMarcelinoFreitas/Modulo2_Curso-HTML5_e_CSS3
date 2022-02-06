@@ -1,4 +1,4 @@
-# 🧑🏻‍💻Criando o projeto
+# 🧑🏻‍💻Criando o projeto do site
 
 ## 📌Organizando o site
 
